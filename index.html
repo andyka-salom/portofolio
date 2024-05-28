@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -22,7 +22,45 @@
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
-
+<style>
+  footer .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        footer .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        footer .col-md-12 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer .copyright-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer .copyright-text p {
+            margin: 0.5em 0;
+        }
+        footer .copyright-text a {
+            margin: 0 10px;
+            color: inherit;
+            text-decoration: none;
+        }
+        footer .copyright-text a:hover {
+            color: #0077b5;
+        }
+        footer .fab {
+            font-size: 1.5em;
+        }
+</style>
   <title>Andyka.salom</title>
 </head>
 
@@ -289,7 +327,7 @@
     </div>
 
 
-    <!-- <div class="untree_co-section pb-0" id="about-section"> -->
+    <div class="untree_co-section pb-0" id="about-section">
       <div class="container">
         <div class="row justify-content-center mb-3">
           <div class="col-lg-7 mx-auto text-center author-wrap">
@@ -325,7 +363,7 @@
 
         <div class="row">
 
-          <!-- <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="service text-center">
               <div class="gsap-reveal-hero mb-3">
                 <span class="icon-service"><img src="images/svg/service-icon-7.svg" alt="Image" class="img-fluid"></span>
@@ -342,7 +380,7 @@
               <h3 class="gsap-reveal-hero">Photography</h3>
               <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
             </div>
-          </div> -->
+          </div>
 
           <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div class="service text-center">
@@ -455,6 +493,33 @@
         </div>
       </div>
     </div>
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <footer data-stellar-background-ratio="5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12 col-sm-12 border-top">
+                  <div class="col-md-4 col-sm-6">
+                      <div class="copyright-text text-center">
+                          <p>
+                              <a href="https://github.com/andyka-salom" target="_blank">
+                                  <i class="fab fa-github"></i>
+                              </a>
+                              <a href="https://www.linkedin.com/in/andyka-salom" target="_blank">
+                                  <i class="fab fa-linkedin"></i>
+                              </a>
+                          </p>
+                          <p>&copy; Andyka Salom</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
